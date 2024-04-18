@@ -1,6 +1,6 @@
 import { Client } from "./interfaces";
 
-const clients: Client[]= [
+const clients: Client[] = [
     {
         name: 'João Pedro',
         address: 'Rua do joão'
@@ -15,7 +15,7 @@ const clients: Client[]= [
 
 export function GET(){
   return(  
-    Response.json({clients})
+    Response.json(clients)
   )
 }
 
